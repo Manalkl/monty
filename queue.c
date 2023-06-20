@@ -55,4 +55,4 @@ void addqueue(stack_t **head, int n)
 			new_node->prev = aux;
 		}
 
-}i
+}
