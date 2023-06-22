@@ -5,11 +5,11 @@
 void parsefile(FILE *file);
 
 /**
- * open_monty_script - Opens a Monty script file for parsing
- * @argc: Count of command-line arguments
- * @argv: Array of command-line arguments
+  * main - opens a monty script file for parsing
+ * @argc: count of args
+ * @argv: array of args
  *
- * Return: EXIT_SUCCESS on yes or EXIT_FAILURE on no
+ * Return: EXIT_SUCCESS on success, EXIT_FAILURE on failure
  */
 
 int main(int argc, char *argv[])
